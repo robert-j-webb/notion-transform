@@ -1,0 +1,25 @@
+@import "tailwind-preset-mantine";
+
+:root {
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a5568;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f7fafc;
+  --color-border: #e2e8f0;
+  --color-code-bg: #f7fafc;
+  --color-code-text: #2d3748;
+  --twilight-80: #353d42;
+  --twilight80: #353d42;
+  --ultranebula: #637bff;
+}
+
+@theme {
+  --font-mono: "Roboto Mono", monospace;
+  --font-sans: "Arial", sans-serif;
+  --color-gray-200: #f8f8f8;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--color-text-primary);
+}
